@@ -9,3 +9,7 @@
 .gallery.duct-render .image-button:not(:first-child){background:#fff}.gallery.duct-render .image-button:not(:first-child) img{height:260px;object-fit:contain}
 
 .gallery.dog-render .image-button{background:#fff}
+
+/* Direct portfolio PDF download. */
+.site-header nav{align-items:center}.site-header nav .pdf-download{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border:1px solid var(--accent);border-radius:4px;color:var(--accent)}.site-header nav .pdf-download:hover{background:var(--accent);color:#fff}
+@media(max-width:650px){.site-header{flex-wrap:wrap;gap:18px}.site-header nav{width:100%;justify-content:space-between;gap:16px}}
