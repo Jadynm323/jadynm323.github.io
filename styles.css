@@ -7,3 +7,5 @@
 .gallery.duct-render{padding:20px;background:#fff}.gallery.duct-render .image-button:first-child{position:relative;aspect-ratio:2217/1789;background:#fff}.gallery.duct-render .image-button:first-child img{position:absolute;left:-14.88498%;top:-60.20123%;width:114.88498%;height:auto;max-height:none}
 
 .gallery.duct-render .image-button:not(:first-child){background:#fff}.gallery.duct-render .image-button:not(:first-child) img{height:260px;object-fit:contain}
+
+.gallery.dog-render .image-button{background:#fff}
