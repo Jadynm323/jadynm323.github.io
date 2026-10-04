@@ -13,3 +13,6 @@
 /* Direct portfolio PDF download. */
 .site-header nav{align-items:center}.site-header nav .pdf-download{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border:1px solid var(--accent);border-radius:4px;color:var(--accent)}.site-header nav .pdf-download:hover{background:var(--accent);color:#fff}
 @media(max-width:650px){.site-header{flex-wrap:wrap;gap:18px}.site-header nav{width:100%;justify-content:space-between;gap:16px}}
+
+/* Preserve both complete clock CAD views. */
+.gallery.clock-render{grid-template-columns:1fr;gap:14px}.gallery.clock-render .image-button{background:#fff}.gallery.clock-render img{height:auto;max-height:300px;object-fit:contain}
