@@ -16,3 +16,6 @@
 
 /* Preserve both complete clock CAD views. */
 .gallery.clock-render{grid-template-columns:1fr;gap:14px}.gallery.clock-render .image-button{background:#fff}.gallery.clock-render img{height:auto;max-height:300px;object-fit:contain}
+
+/* Lead with a real clock video still above the two CAD views. */
+.gallery.clock-render{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.gallery.clock-render .image-button:first-child{grid-column:1/-1}.gallery.clock-render .image-button:first-child img{height:390px;max-height:none;object-fit:contain}.gallery.clock-render .image-button:not(:first-child) img{height:190px;max-height:none;object-fit:contain}
